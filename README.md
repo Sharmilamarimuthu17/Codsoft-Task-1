@@ -1,39 +1,30 @@
  Codsoft-Task-1
 Number Game
+# Number Guessing Game
+
+## About
+
+This is a simple Java-based Number Guessing Game developed as part of the CodSoft Java Programming Internship.
+
+The program generates a random number between 1 and 100, and the user tries to guess it. The program provides hints if the guessed number is too high or too low until the correct number is guessed.
+
+## Features
+
+* Random number generation between 1 and 100
+* User input for guessing
+* Hints for high and low guesses
+* Displays a success message when the correct number is guessed
+
+## Technologies Used
+
+* Java
+* Scanner Class
+* Random Class
+##program
 https://onecompiler.com/java/44ss9zq28
+                                              
+## Author
 
-import java.util.Random;
-import java.util.Scanner;
+Submitted by [Your Name] for the CodSoft Java Programming Internship.
 
-public class Main {
-
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        Random rand = new Random();
-
-        int num = rand.nextInt(100) + 1;
-        int estimate = 0;
-        int pursue = 0;
-
-        System.out.println("Guess a number between 1 and 100");
-
-        while (estimate != num) {
-
-            System.out.print("Enter your estimate: ");
-            estimate = sc.nextInt();
-            pursue++;
-
-            if (estimate > num) {
-                System.out.println("high num");
-            } else if (estimate < num) {
-                System.out.println("low num");
-            } else {
-                System.out.println("Correct");
-                System.out.println("Pursue taken: " + pursue);
-            }
-        }
-
-        sc.close();
-    }
-}
+           
