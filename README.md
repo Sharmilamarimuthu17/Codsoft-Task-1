@@ -62,10 +62,10 @@ pursue taken;6
 
 ## 👨‍💻 Author
 Sharmila.M
-B.Tech Artificial Intelligence and Data Science
+B.Tech (Artificial Intelligence and Data Science)
 
 ## 🏢 Internship
 
-This project was developed during the **CodSoft Java Programming Internship.
+This project was developed during the CodSoft Java Programming Internship.
 
            
